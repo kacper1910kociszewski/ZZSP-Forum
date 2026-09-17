@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Client build output
+client/dist/
+
+# Server runtime folders
+server/pending/
+
+# Logs
+*.log
+server/*.log
+client/*.log
+
+# Throwaway screenshots / temp files at repo root
+_binary_shot.png
+_readme_screenshot.png
+_build_check.js
+_build_check.css
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
