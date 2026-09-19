@@ -1,0 +1,10 @@
+{
+  "name": "zzsp-forum",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ZZSP Forum - markdown-based algorithm forum. Start server + client with one command.",
+  "scripts": {
+    "dev": "node scripts/start.js",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  }
+}
